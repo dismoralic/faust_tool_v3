@@ -1,0 +1,27 @@
+{
+  "API_ID": 0,
+  "API_HASH": "",
+  "prefix": ".",
+  "device_model": "Faust Userbot",
+  "system_version": "Auto",
+  "app_version": "3.5.1",
+  "ollama_url": "http://87.120.84.247:11434",
+  "model": "qwen3:1.7b",
+  "ollama": {
+    "timeout": 120,
+    "max_queue": 20,
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "keep_alive": "30m",
+    "history_turns": 6,
+    "user_requests_per_minute": 10,
+    "retry_attempts": 1,
+    "circuit_threshold": 3,
+    "circuit_seconds": 30
+  },
+  "auto_answer_private_only": true,
+  "autoreply_cooldown_seconds": 5.0,
+  "autoreply_context_refresh_seconds": 86400,
+  "autoreply_context_messages": 100,
+  "autoreply_queue_size": 1000
+}
