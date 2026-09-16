@@ -1,0 +1,32 @@
+{
+  "answer": {
+    "all": false,
+    "users": [
+      8417133347
+    ]
+  },
+  "bypass": {
+    "all": false,
+    "users": []
+  },
+  "autoreply": {
+    "persona": {
+      "enabled": true,
+      "all": false,
+      "users": [
+        8417133347
+      ],
+      "chats": [],
+      "contacts": false,
+      "non_contacts": false
+    },
+    "assistant": {
+      "enabled": false,
+      "all": false,
+      "users": [],
+      "chats": [],
+      "contacts": false,
+      "non_contacts": false
+    }
+  }
+}

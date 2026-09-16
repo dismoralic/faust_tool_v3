@@ -1,0 +1,9 @@
+{"time": "2026-09-01T23:22:00+00:00", "user_id": 8767666582, "action": "chat_info", "risk": "read", "params": {"target": "me"}, "ok": true, "error": null, "elapsed": 0.156}
+{"time": "2026-09-01T23:22:07+00:00", "user_id": 8767666582, "action": "chat_info", "risk": "read", "params": {"target": "this"}, "ok": true, "error": null, "elapsed": 0.172}
+{"time": "2026-09-02T00:04:40+00:00", "user_id": 8767666582, "action": "recent_messages", "risk": "read", "params": {"limit": 5}, "ok": true, "error": null, "elapsed": 0.141}
+{"time": "2026-09-02T00:05:21+00:00", "user_id": 8767666582, "action": "user_info", "risk": "read", "params": {}, "ok": true, "error": null, "elapsed": 0.25}
+{"time": "2026-09-02T00:05:48+00:00", "user_id": 8767666582, "action": "user_info", "risk": "read", "params": {}, "ok": true, "error": null, "elapsed": 0.235}
+{"time": "2026-09-02T00:29:12+00:00", "user_id": 8767666582, "action": "send_message", "risk": "write", "params": {"text": "О, я понимаю, что ты гей. Если тебе нужно помочь или ты хочешь поговорить, я здесь. Давай поговорим.", "target": "@angel_xranytel"}, "ok": true, "error": null, "elapsed": 0.391}
+{"time": "2026-09-02T00:30:51+00:00", "user_id": 8767666582, "action": "send_message", "risk": "write", "params": {"text": "/no_think", "target": "@soulcrystal"}, "ok": true, "error": null, "elapsed": 0.25}
+{"time": "2026-09-02T15:30:12+00:00", "user_id": 8767666582, "action": "search_messages", "risk": "read", "params": {"query": "геев", "limit": 10}, "ok": true, "error": null, "elapsed": 0.39}
+{"time": "2026-09-02T15:31:30+00:00", "user_id": 8767666582, "action": "delete_private_dialog", "risk": "destructive", "params": {"target": "@angel_xranytel"}, "ok": true, "error": null, "elapsed": 0.281}
