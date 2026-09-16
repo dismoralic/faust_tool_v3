@@ -1,0 +1,16 @@
+[Unit]
+Description=Faust Telegram Userbot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/faust_tool_v3
+ExecStart=/usr/bin/python3 -m userbot.userbot
+Restart=on-failure
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
